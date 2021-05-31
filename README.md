@@ -8,13 +8,14 @@ Libraries used:
 
 mvn commands to run the test
 #### ATO Tax calculator scenario - 
-    mvn.bat -B verify -Dcucumber.filter.tags=@taxCalculator 
+    mvn  post-integration-test -Dcucumber.filter.tags=@taxCalculator 
 
 #### MLC Life View scenario - 
-    mvn.bat -B verify -Dcucumber.filter.tags=@Lifeview 
+    mvn post-integration-test -Dcucumber.filter.tags=@Lifeview 
 
 #### AU Post API Tests - 
-    mvn.bat -B verify -Dcucumber.filter.tags=@AUPost 
+    mvn post-integration-test -Dcucumber.filter.tags=@AUPost 
 
 #### All Tests - 
-    mvn.bat -B verify -Dcucumber.filter.tags=@AllTests 
+    mvn post-integration-test -Dcucumber.filter.tags=@AllTests 
+
