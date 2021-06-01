@@ -1,10 +1,7 @@
 package com.serenity.example;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
-import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)

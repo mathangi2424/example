@@ -3,7 +3,6 @@ package com.serenity.example.serenity;
 import com.serenity.example.pageObjects.HomePage;
 import com.serenity.example.pageObjects.LifeViewPage;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 
 import java.util.List;
 import java.util.Map;

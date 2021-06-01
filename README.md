@@ -19,3 +19,5 @@ mvn commands to run the test
 #### All Tests - 
     mvn post-integration-test -Dcucumber.filter.tags=@AllTests 
 
+Report is available to view in 
+\target\site\serenity\index.html

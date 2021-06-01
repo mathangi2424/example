@@ -1,12 +1,8 @@
 package com.serenity.example.stepDefinitions;
 
 import com.serenity.example.serenity.AUPostSteps;
-import com.serenity.example.serenity.TaxCalcSteps;
-import com.serenity.example.services.CalculateAPI;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
-import io.restassured.response.Response;
 import net.thucydides.core.annotations.Steps;
 
 public class AUPostStepDefs {

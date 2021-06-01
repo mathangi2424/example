@@ -1,12 +1,7 @@
 package com.serenity.example.serenity;
 
-import com.serenity.example.pageObjects.HomePage;
-import com.serenity.example.pageObjects.LifeViewPage;
 import com.serenity.example.pageObjects.TaxCalculatorPage;
 import net.thucydides.core.annotations.Step;
-
-import java.util.List;
-import java.util.Map;
 
 public class TaxCalcSteps {
 

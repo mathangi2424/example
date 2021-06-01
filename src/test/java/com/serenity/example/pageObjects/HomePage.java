@@ -1,15 +1,10 @@
 package com.serenity.example.pageObjects;
 
-import com.sun.xml.bind.v2.runtime.reflect.opt.Const;
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class HomePage extends BasePage {
 

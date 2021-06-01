@@ -112,7 +112,7 @@
 				</goals>
 				<configuration>
 					<includes>
-						<include>**/TestRunner.class</include>
+						<include>TestRunner.class</include>
 					</includes>
 				</configuration>
 				<executions>

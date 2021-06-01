@@ -9,7 +9,6 @@ import java.util.Properties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.yaml.snakeyaml.Yaml;
 
 public class Config {
 	final static Logger LOG = LoggerFactory.getLogger(Config.class);

@@ -4,15 +4,12 @@ import com.google.gson.Gson;
 import com.serenity.example.utilities.Config;
 import io.cucumber.core.api.Scenario;
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import net.serenitybdd.rest.SerenityRest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.util.*;
 
-import static io.restassured.RestAssured.given;
 
 public class BaseService {
 

@@ -1,6 +1,5 @@
 package com.serenity.example.services;
 
-import io.restassured.response.Response;
 
 public class CalculateAPI extends BaseService {
 
